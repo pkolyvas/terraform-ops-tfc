@@ -7,7 +7,7 @@ A couple of premises worth sharing if you're poking around here for some usable 
 - This is AWS-centric
 - The general pattern here assumes the same credentials are being used in the workspaces of an organization
 
-Prerequisits:
+Prerequisites:
 - You'll need to have setup a TFC account
 - You'll have to have setup a TFC organization
 - You'll have to have configured that organization with a VCS connection
