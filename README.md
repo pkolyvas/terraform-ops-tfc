@@ -10,8 +10,9 @@ A couple of premises worth sharing if you're poking around here for some usable 
 Prerequisites:
 - TFC account
 - A TFC organization
-- You'll have to have configured that organization with a VCS connection
-- I use `TF_VAR_AWS_ACCESS_KEY_ID` & `TF_VAR_AWS_SECRET_KEY` as the environment variables which allow me to populate the workspaces with the credentials I need.
+- VCS connection configured
+
+NB. I use `TF_VAR_AWS_ACCESS_KEY_ID` & `TF_VAR_AWS_SECRET_KEY` as the environment variables which allow me to populate the workspaces with the credentials I need.
 
 General workflow:
 - Configure these files as necessary
