@@ -1,4 +1,4 @@
-# terraform-ops-tfc
+# [WIP] terraform-ops-tfc
 A set of modules to help bootstrap &amp; operate TFC
 
 This rough patchwork is the basic template I use to configure TFC. I use it to configure my workspaces with the necessary credentials and settings from the CLI, including their connections to specifc VCS repos.
