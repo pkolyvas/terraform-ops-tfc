@@ -8,8 +8,8 @@ A couple of premises worth sharing if you're poking around here for some usable 
 - The general pattern here assumes the same credentials are being used in the workspaces of an organization
 
 Prerequisites:
-- You'll need to have setup a TFC account
-- You'll have to have setup a TFC organization
+- TFC account
+- A TFC organization
 - You'll have to have configured that organization with a VCS connection
 - I use `TF_VAR_AWS_ACCESS_KEY_ID` & `TF_VAR_AWS_SECRET_KEY` as the environment variables which allow me to populate the workspaces with the credentials I need.
 
