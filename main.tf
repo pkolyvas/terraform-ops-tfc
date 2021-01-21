@@ -1,9 +1,9 @@
-module "tfe_admin" {
-  source            = "./admin/"
-  organization_name = var.organization_name
-  AWS_ACCESS_KEY_ID = var.AWS_ACCESS_KEY_ID
-  AWS_SECRET_KEY    = var.AWS_SECRET_KEY
-}
+# module "tfe_admin" {
+#   source            = "./admin/"
+#   organization_name = var.organization_name
+#   AWS_ACCESS_KEY_ID = var.AWS_ACCESS_KEY_ID
+#   AWS_SECRET_KEY    = var.AWS_SECRET_KEY
+# }
 
 resource "tfe_workspace" "workspaces" {
   for_each = var.workspaces
