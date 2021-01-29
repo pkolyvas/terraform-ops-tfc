@@ -1,3 +1,9 @@
+# This resource will generate and manage as many workspaces
+# as are defined as objects for the workspaces map.
+# The dynamic vcs_repo block will be populated only if the nested
+# vcs_repo object is defined. There's still a bit of work to do here
+# on further streamlining the optional attributes within the dynamic
+# block but I ran out of time.
 resource "tfe_workspace" "workspaces" {
   for_each = var.workspaces
 
