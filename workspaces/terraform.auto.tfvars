@@ -1,6 +1,8 @@
 workspaces = {
   # This object will generate a workspace titled "example_workspace"
   # using the defaults of TFC. Please see below for other examples.
+  # Additionally, each workspace will be created with AWS credentials defined
+  # from the Admin/source workspace.
   example_workspace = {}
 }
 
